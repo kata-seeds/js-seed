@@ -14,7 +14,7 @@ dependencies:
 	@[ '$(platform)' = 'Darwin' ] && (which node >/dev/null || (which brew >/dev/null || echo "make: ***" To install on OSX, first install homebrew \(http://brew.sh/\) then you can use \`brew install node\')) || true
 
 	@(which node >/dev/null || echo "make: ***" After installing node, please run \`make\' again) || true
-	@which node >/dev/null
+	@which node >/dev/null 	# fail silently if node does not exist (but first present information)
 	npm install phantomjs
 	npm install
 
