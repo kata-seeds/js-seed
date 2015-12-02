@@ -9,7 +9,7 @@ dependencies:
 	@(which node >/dev/null || (which brew >/dev/null && echo "make: ***" You can use \`brew install node\' on OS to install node.js)) || true
 	@(which node >/dev/null || (which brew >/dev/null || echo "make: ***" To install on OS, first install homebrew \(http://brew.sh/\) then you can use \`brew install node\')) || true
 	@(which node >/dev/null || echo "make: ***" After installing node, please run \`make\' again) || true
-	@which node >/dev/null && npm install phantomjs
-	@which node >/dev/null && npm install
+	which node >/dev/null && npm install phantomjs
+	which node >/dev/null && npm install
 
 .PHONY: all dependencies test
