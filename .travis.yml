@@ -1,2 +1,2 @@
-language: # TODO: see http://docs.travis-ci.com for more information
+language: node_js
 script: make
