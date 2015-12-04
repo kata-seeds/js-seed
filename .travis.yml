@@ -1,2 +1,5 @@
-language: # TODO: see http://docs.travis-ci.com for more information
+language: node_js
 script: make
+node_js:
+- '0.11'
+- '0.10'

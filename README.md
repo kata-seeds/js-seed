@@ -5,8 +5,8 @@
 
 Clone this repo with `git`:
 
-    git clone https://github.com/kata-seeds/js-karma-seed.git
-    cd js-karma-seed
+    git clone https://github.com/kata-seeds/js-seed.git
+    cd js-seed
 
 Install dependencies and run your tests with `make`:
 
